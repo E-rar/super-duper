@@ -1,0 +1,160 @@
+/* import der schriften  */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro&display=swap');
+html{
+    margin:0px;
+}
+body{
+    font-family: Maven Pro, Gilda Display,Arial, Helvetica, sans-serif;
+    background:url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+    margin:0px;
+    margin-top:0px;
+}
+header{
+    background-color:#333 ;
+    background-size:cover;
+    color:white;
+    height:100vh;
+    margin:0px;
+    position: relative;
+}
+#logo{
+    position:top left;
+    width:10px;
+    letter-spacing:3px;
+    padding-left:10px;
+    font-size:25px;
+    margin:0px;
+    
+}
+#box{
+    
+    
+    background-image: linear-gradient(45deg,#8507e1,#3dc8d5);
+    width:50vh;
+    height:40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:0px;
+    border-radius:7px;
+}
+#box:hover{
+    background-image: linear-gradient(45deg,#3dc8d5,#8507e1);
+}
+
+section:nth-of-type(1) ul{
+    text-align: right;
+    bottom:0px; right:0px;
+    line-height:30px;
+    margin-top:45%;
+    margin-right:2%;
+}
+/* Punkte aus der Liste entfernen */
+ul, li
+{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: white;
+    opacity:70%;
+/*Hover Effekt für die Links*/
+}
+a:hover{
+    opacity:100%;
+}
+h1{
+    margin:5px;
+    padding:0px;
+    font-family:Gilda Display;
+    font-size:120px;
+}
+h1+p{
+    
+    text-align:bottom;
+    
+    margin-top:0px;
+    font-size: 28px;
+    padding:10px;
+}
+main{
+    margin-left:7%;
+    margin-right:7%;
+}
+article:nth-of-type(1){
+    width:40%;
+    
+    margin-top:25%;
+    margin-bottom:25%;
+}
+article:nth-of-type(1) h2{
+    font-size:100px;
+    
+    
+    font-family:serif;
+
+}
+article:nth-of-type(1) p{
+    font-size:20px;
+    line-height :30px;
+
+}
+/*Stylen der drei Artikel mit den Bildern */
+img{
+    width: 90%;
+    border-radius:5px;
+    margin:0px;
+    
+
+}
+article:nth-of-type(2){
+    width:80%;
+    height:40%;
+    margin-left:15%;
+    
+}
+article:nth-of-type(3){
+    width:80%;
+    height:40%;
+    margin-left:15%;
+}
+article:nth-of-type(4){
+    width:80%;
+    height:40%;
+    margin-left:15%;
+}
+article:nth-of-type(2) h3{
+    font-family:serif;
+    text-align:left;
+    font-size:50px;
+    margin:2% 0 1% 0;
+}
+article:nth-of-type(3) h3{
+    font-family:serif;
+    text-align:left;
+    font-size:50px;
+    margin:2% 0 1% 0;
+}
+article:nth-of-type(4) h3{
+    font-family:serif;
+    text-align:left;
+    font-size:50px;
+    margin:2% 0 1% 0;
+}
+article:nth-of-type(2) p{
+    font-size:20px;    
+    margin-bottom: 25%;
+    font-weight: 100;
+}
+article:nth-of-type(3) p{
+    font-size:20px;    
+    margin-bottom: 25%;
+    font-weight: 100;
+}
+article:nth-of-type(4) p{
+    font-size:20px;    
+    margin-bottom: 25%;
+    font-weight: 100;
+}    
